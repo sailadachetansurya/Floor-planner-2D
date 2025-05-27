@@ -1,0 +1,51 @@
+Usage Restrictions and Instructions for Floor Planner Application
+General Restrictions
+Room Overlap:
+
+Rooms cannot overlap with each other. If an overlap is detected when adding a new room, the application will automatically adjust the position of the room until no overlaps occur.
+Maximum Doors and Windows:
+
+Each room can have a maximum of 4 doors. Attempting to add more doors will result in a warning message.
+Windows cannot be placed between rooms. If a window is attempted to be placed in such a position, an error message will be displayed.
+Room Dimensions:
+
+The width and height of rooms must be positive integers and cannot exceed the canvas dimensions (1162 pixels width and 830 pixels height).
+If dimensions exceed the maximum allowed size, the user will be prompted to enter valid dimensions.
+Door and Window Sizes:
+
+Doors must have a minimum width of 2 pixels. The size of the door must also fit within the walls of the room.
+Windows have fixed dimensions (20 pixels wide and 3 pixels high) and cannot be adjusted.
+Furniture Placement:
+
+Furniture must be placed within the bounds of the room. If an attempt is made to place furniture outside the room, a warning message will appear.
+Users must ensure there is enough space for furniture to fit within the room; otherwise, a warning will be displayed.
+Instructions for Use
+Adding Rooms:
+
+Click on the "Add Rooms" button and select the desired room type.
+Enter the width and height when prompted. Ensure the dimensions are valid and do not exceed the maximum canvas size.
+Drag the room to the desired location on the canvas.
+Adding Furniture:
+
+Click on the "Add Furniture" button and select the type of furniture to add.
+Click within the room to place the furniture. Ensure it fits within the room boundaries.
+Adding Openings:
+
+Right-click on the room to access the context menu, then select "Add Door" or "Add Window."
+Specify the position and dimensions for the door or window. Ensure it does not overlap with existing openings.
+Editing Rooms and Furniture:
+
+Rooms and furniture can be resized by dragging their edges.
+Selected furniture can be rotated by using the rotate option available in the context menu.
+Saving and Loading Plans:
+
+Use the "Save" button to save your current design. Ensure you have a valid file name and location.
+Load existing designs using the "Open" button. The application will clear the current canvas before loading the new design.
+Collision Detection:
+
+The application automatically checks for collisions between rooms and furniture. If a collision occurs during movement, the item will revert to its last valid position.
+Snap to Grid:
+
+Users can toggle the "Snap to Grid" feature to help align rooms and furniture more precisely on the canvas.
+Error Handling
+If an action cannot be completed due to restrictions (e.g., adding too many doors, placing furniture outside the room), an error message will be displayed. Follow the instructions in the message to correct the issue.

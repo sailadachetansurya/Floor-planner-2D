@@ -1,0 +1,56 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "RotatingImagePanel",
+            "request": "launch",
+            "mainClass": "RotatingImagePanel",
+            "projectName": "GPTfloorplanner_a1165f9"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "GPTfloorplanner_a1165f9"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "floorplanner_fb5e9137"
+        },
+        {
+            "type": "java",
+            "name": "OptionPaneExample",
+            "request": "launch",
+            "mainClass": "OptionPaneExample",
+            "projectName": "floorplanner_fb5e9137"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "ButtonExample",
+            "request": "launch",
+            "mainClass": "ButtonExample",
+            "projectName": "floorplanner_fb5e9137"
+        },
+        {
+            "type": "java",
+            "name": "RatioPanels",
+            "request": "launch",
+            "mainClass": "RatioPanels",
+            "projectName": "floorplanner_fb5e9137"
+        }
+    ]
+}
